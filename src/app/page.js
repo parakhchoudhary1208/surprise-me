@@ -60,8 +60,26 @@ export default function Home() {
                 </motion.p>
             )}
 
-            <footer className="mt-12 text-sm text-gray-500">
-                🚀 Made with ❤️ by Parakh Choudhary
+            <footer className="mt-12 text-sm text-gray-500 flex flex-col items-center">
+                <p>🚀 Made with ❤️ by Parakh Choudhary</p>
+                <div className="mt-2 flex space-x-4">
+                    <a
+                        href="https://github.com/parakhchoudhary1208"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                    >
+                        🌟 GitHub
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/parakh-choudhary-a6ba81175/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline"
+                    >
+                        💼 LinkedIn
+                    </a>
+                </div>
             </footer>
         </div>
     );
